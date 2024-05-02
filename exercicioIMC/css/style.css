@@ -98,6 +98,10 @@ body {
     margin-bottom: 15px;
     padding-right: 23px;
     cursor: pointer;
+    font-family: 'Reavy ialic', sans-serif;
+    color: #726f6f;
+    font-weight: 500;
+    font-size: 12px
 }
 
 #resultado{
@@ -133,6 +137,7 @@ body {
         height: 300px;
         background: linear-gradient(#97a3f3, #998bc4, #67639f);
         border-radius: 10px;
+
     }
     
 }
@@ -170,5 +175,29 @@ body {
         width: 320px;
         height: 100px;
         padding: 40px;
+    }
+
+    .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .formulario .botao input{
+        background-color: #fff;
+        color: #b3b3b3;
+        border: none;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        padding-right: 23px;
+        font-family: 'Reavy ialic', sans-serif;
+        color: #726f6f;
+        font-weight: 500;
+        font-size: 12px
     }
 }
