@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="stars">
+        <!-- Adicione estrelas dinamicamente usando JavaScript -->
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/particles.js"></script>
+
+    <section class="container">
+        <div class="conteudo">
+            <h1>Calculadora de IMC</h1>
+
+            <div class="formulario">
+                <form action="#" method="get" onsubmit="CalcularIMC(event)">
+                <div class="altura">
+                    <label for="altura">Altura:</label>
+                    <input type="number" step="0.01" name="altura" id="altura" placeholder="Insira sua altura. Ex: 1,80" required><br>
+                </div>
+                <div class="peso">
+                    <label for="peso">Peso:</label>
+                    <input type="number" step="0.01" name="peso" id="peso" placeholder="Insira seu peso. Ex: 60,5" required><br>
+                </div>
+                <div class="botao">
+                    <input type="submit" id="calcular" value="Calcular">
+                </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="resultado"> Resultado</div>
+    </section>
+</body>
+</html>
