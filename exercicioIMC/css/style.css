@@ -114,7 +114,10 @@ body {
     font-weight: 700;
     width: 400px;
     height: 100px;
-    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 620px) {
@@ -174,7 +177,10 @@ body {
         font-weight: 700;
         width: 320px;
         height: 100px;
-        padding: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .formulario{
