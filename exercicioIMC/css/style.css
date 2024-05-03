@@ -344,7 +344,7 @@ img{
         align-items: center;
         flex-direction: column;
         background: linear-gradient(#e0e0e0, #bfbfc0, #bebebe);
-        width: 400px;
+        width: 360px;
         border-radius: 10px;
         margin: 10px 0px 10px 15px;
         padding: 14px;
@@ -434,7 +434,7 @@ img{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 400px;
+        width: 330px;
         height: 300px;
         background: linear-gradient(#97a3f3, #998bc4, #67639f);
         border-radius: 10px;
