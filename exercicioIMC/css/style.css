@@ -339,11 +339,15 @@ img{
 @media screen and (max-width: 390px) {
 
     .inicio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         background: linear-gradient(#e0e0e0, #bfbfc0, #bebebe);
-        width: 200px;
+        width: 400px;
         border-radius: 10px;
-        margin: 10px;
-        padding: 5px;
+        margin: 10px 0px 10px 15px;
+        padding: 14px;
     }
     section h1{
         color: #b65feb;
@@ -351,7 +355,7 @@ img{
         font-size: 20px;
         font-weight: 900;
         margin-top: 40px;
-        margin-left: 5%;
+        margin-left: 5px;
         font-style: italic;
         margin-bottom: 15px;
     }
@@ -360,7 +364,7 @@ img{
         font-family: 'Reavy italic', sans-serif;
         font-size: 15px;
         font-weight: 600;
-        margin-left: 5%;
+        margin-left: 5px;
         margin-top: 10px;
         margin-bottom: 15px;
         color: #363535;
@@ -371,7 +375,8 @@ img{
     
     .imagem1{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        flex-direction: column;
         align-items: center;
         max-width: 100%;
         margin-top: 40px;
@@ -382,14 +387,16 @@ img{
         border-radius: 10px;
         width: 170px;
         height: 480px;
+        padding-top: 10px;
     }
     
     .imagem2{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        flex-direction: column;
         align-items: center;
         max-width: 100%;
-        margin-top: 40px;
+        margin-top: 0;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -401,6 +408,7 @@ img{
         width: 330px;
         background-color: rgb(255, 255, 255);
         border-radius: 10px;
+        margin-top: 20px;
     }
     
     #corpo1 p, #corpo2 p, #corpo3 p, #corpo4 p, #corpo5 p, #corpo6 p{
@@ -411,15 +419,14 @@ img{
         padding-left: 10px;
         padding-right: 15px;
     }
-    
     .container{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 40%;
+        width: 50%;
         margin-top: 80px;
-        margin-left: 30%;
+        margin-left: 25%;
     }
 
     .conteudo{
@@ -427,26 +434,27 @@ img{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 350px;
+        width: 400px;
         height: 300px;
         background: linear-gradient(#97a3f3, #998bc4, #67639f);
         border-radius: 10px;
+
     }
-    
+
     #resultado{
         margin-top: 50px;
-        background: linear-gradient(#97a3f3, #998bc4, #67639f);
         border-radius: 10px;
         color: #fff;
         font-family: 'Reavy italic', sans-serif;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 700;
-        width: 320px;
+        width: 400px;
         height: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-bottom: 50px;
     }
 
     .formulario{
