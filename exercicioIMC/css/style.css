@@ -343,7 +343,7 @@ img{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background: linear-gradient(#e0e0e0, #bfbfc0, #bebebe);
+        background: linear-gradient(#000000, #bfbfc0, #bebebe);
         width: 360px;
         border-radius: 10px;
         margin: 40px 0px 10px 15px;
