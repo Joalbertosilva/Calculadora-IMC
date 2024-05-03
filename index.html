@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMC</title>
+    <title>Calculadora de IMC</title>
     <link rel="stylesheet" href="exercicioIMC/css/style.css">
 </head>
 <body>
@@ -13,9 +13,49 @@
     <script src="exercicioIMC/js/main.js"></script>
     <script src="exercicioIMC/js/particles.js"></script>
 
+    <section class="inicio">
+        <h1>Indice de Massa Corporal - IMC</h1>
+        <p>O Índice de Massa Corporal (IMC) é uma medida amplamente utilizada para avaliar o peso corporal em relação à altura de uma pessoa. Essa métrica oferece insights importantes sobre a saúde geral e o risco de desenvolvimento de certas condições médicas.
+
+            A importância do IMC reside na sua capacidade de fornecer uma indicação rápida e fácil do status do peso de uma pessoa. Ao calcular o IMC, é possível classificar o peso em categorias como abaixo do peso, peso normal, sobrepeso e obesidade. Essas classificações são úteis para identificar potenciais problemas de saúde associados ao peso.
+            
+            Manter um IMC dentro da faixa considerada saudável é essencial para promover a saúde e prevenir doenças. Pessoas com IMC normal têm menor risco de desenvolver condições como diabetes tipo 2, doenças cardíacas, hipertensão arterial, acidente vascular cerebral, certos tipos de câncer e problemas articulares, entre outros.
+            
+            Além disso, o IMC é uma ferramenta valiosa para orientar intervenções e mudanças de estilo de vida. Se uma pessoa estiver fora da faixa de peso saudável, o IMC pode ajudar a identificar metas de peso realistas e fornecer um ponto de referência para monitorar o progresso ao longo do tempo.
+            
+            É importante ressaltar que o IMC não é a única medida de saúde e bem-estar. Outros fatores, como composição corporal, distribuição de gordura, nível de atividade física, dieta e história médica pessoal, também desempenham um papel crucial na saúde global de uma pessoa. Portanto, o IMC deve ser considerado como parte de uma avaliação mais abrangente da saúde, e consultas regulares com profissionais de saúde são essenciais para uma abordagem holística e personalizada da saúde.</p>
+    </section>
+    <section class="imagem1">
+        <div id="corpo1">
+            <img src="exercicioIMC/img/corpos-imc-abaixo.jpg" alt="Corpo muito magro" >
+            <p>Indivíduos com IMC abaixo de 18,5 são considerados abaixo do peso. Isso pode indicar uma falta de massa muscular ou gordura insuficiente para sustentar uma boa saúde.</p>
+        </div>
+        <div id="corpo2">
+            <img src="exercicioIMC/img/corpos-imc-normal.jpg" alt="Corpo Saudável" >
+            <p>Um IMC entre 18,5 e 24,9 é considerado dentro da faixa normal. Indivíduos nesta faixa de peso têm um equilíbrio saudável entre massa muscular e gordura corporal.</p>
+        </div>
+        <div id="corpo3">
+            <img src="exercicioIMC/img/corpos-imc-sobrePeso.jpg" alt="Corpo com sobrepeso" >
+            <p>Pessoas com IMC entre 25 e 29,9 são consideradas com sobrepeso. Isso indica um acúmulo excessivo de gordura corporal, o que pode aumentar o risco de problemas de saúde como diabetes e doenças cardíacas.</p>
+        </div>
+    </section>
+    <section class="imagem2">
+        <div id="corpo4">
+            <img src="exercicioIMC/img/corpos-imc-obeso1.jpg" alt="Corpo com obesidade" >
+            <p>Obesidade Grau I: Um IMC entre 30 e 34,9 indica obesidade de grau I. Indivíduos nesta categoria têm um risco aumentado de problemas de saúde, incluindo hipertensão, diabetes tipo 2 e doenças cardíacas.</p>
+        </div>
+        <div id="corpo5">
+            <img src="exercicioIMC/img/corpos-imc-obeso2.jpg" alt="Corpo com obesidade grau 2" >
+            <p>Obesidade Grau II: Pessoas com IMC entre 35 e 39,9 são classificadas como obesas de grau II. Este nível de obesidade está associado a um risco significativamente aumentado de complicações de saúde graves.</p>
+        </div>
+        <div id="corpo6">
+            <img src="exercicioIMC/img/corpos-imc-obeso3.jpg" alt="Corpo com obesidade grau 3" >
+            <p>Obesidade Grau III (Mórbida): Um IMC de 40 ou superior é considerado obesidade de grau III ou mórbida. Essa condição é extremamente grave e pode levar a uma série de complicações médicas sérias, incluindo doenças cardiovasculares, apneia do sono e osteoartrite.</p>
+        </div>
+    </section>
     <section class="container">
         <div class="conteudo">
-            <h1>Calculadora de IMC</h1>
+            <h2>Calcule seu IMC</h2>
 
             <div class="formulario">
                 <form action="#" method="get" onsubmit="CalcularIMC(event)">
@@ -34,7 +74,8 @@
             </div>
         </div>
 
-        <div id="resultado"> Resultado</div>
+        <div id="resultado"></div>
+        <di id="resultado2"></div>
     </section>
 </body>
 </html>
