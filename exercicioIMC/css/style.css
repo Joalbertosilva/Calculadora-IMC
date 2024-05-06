@@ -3,36 +3,7 @@
     margin: 0;
     padding: 0;
 }
-body {
-    margin: 0;
-    padding: 0;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.8);
-}
 
-.stars {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-.star {
-    position: absolute;
-    width: 2px;
-    height: 2px;
-    background-color: #fff;
-    border-radius: 50%;
-    animation: twinkle 2s linear infinite;
-}
-
-@keyframes twinkle {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
-}
 
 .inicio{
     background: linear-gradient(#e0e0e0, #bfbfc0, #bebebe);
@@ -95,12 +66,12 @@ img{
     justify-content: space-between;
     align-items: center;
     width: 330px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(169, 168, 168);
     border-radius: 10px;
 }
 
 #corpo1 p, #corpo2 p, #corpo3 p, #corpo4 p, #corpo5 p, #corpo6 p{
-    color: #000000;
+    color: #ffffff;
     font-family: 'Reavy italic', sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -199,17 +170,18 @@ img{
     justify-content: space-between;
     align-items: center;
     width: 330px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(169, 168, 168);
     border-radius: 10px;
     margin-bottom: 50px;
-    color: #000000;
+    color: #ffffff;
     font-family: 'Reavy italic', sans-serif;
     font-size: 16px;
     font-weight: 700;
+}
+#resultado2 p{
     padding-left: 10px;
     padding-right: 15px;
 }
-
 
 
 @media screen and (max-width: 620px) {
